@@ -14,7 +14,7 @@ const HomePage = () => {
 
                 <div className="bg-white shadow-md m-6">
                     <div className="border-b-2 border-gray-300">
-                        <img src="" alt="hanan" />
+                        <img src="" alt="" />
                         <div className="py-2 flex justify-center items-center">
                             <HiMenu />
                         </div>
