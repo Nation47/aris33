@@ -6,7 +6,7 @@ const HomePage = () => {
     return (
         <>
             <div className="bg-gray-200">
-                <div className="bg-white shadow-md p-4 text-sm flex">
+                <div className="bg-white shadow-md p-4 text-xs lg:text-sm flex">
                     <h2 className="mr-1">Home /</h2>
                     <p className="text-gray-500 mr-1">Student Profile / </p>
                     <p className="text-gray-500">2021-04-00075 | ABDALLAH, HANANI Y</p>
@@ -28,7 +28,7 @@ const HomePage = () => {
                 <div className="bg-white shadow-md m-6 p-4">
                     <h1 className="text-green-800 text-2xl font-semibold flex items-center">
                         <FaReadme className="mr-1" />
-                        2nd Year(2022/23)
+                        2nd semester(2022/23)
                     </h1>
                     <Link href="/results" className="mt-5 text-blue-700 text-sm">My Courses & Results</Link>
                 </div>
