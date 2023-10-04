@@ -3,7 +3,7 @@ const HomePage = () => {
         <>
             <div className="bg-gray-300">
                 <div className="bg-white shadow-md p-4">
-                    <h2>home</h2>
+                    <h2>Home</h2>
                 </div>
             </div>
         </>
