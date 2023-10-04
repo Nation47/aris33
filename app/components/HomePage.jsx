@@ -1,5 +1,5 @@
-import { HiBookOpen } from "react-icons/hi";
-import { FaMasksTheater } from "react-icons/fa6";
+import { HiBookOpen, HiMenu } from "react-icons/hi";
+import { FaMasksTheater, FaReadme } from "react-icons/fa6";
 
 const HomePage = () => {
     return (
@@ -13,11 +13,14 @@ const HomePage = () => {
                 <div className="bg-white shadow-md m-6">
                     <div className="border-b-2 border-gray-300">
                         <img src="" alt="hanan" />
+                        <div className="">
+                            <HiMenu />
+                        </div>
                     </div>
                     <ol className="text-sm p-4 space-y-3">
                         <li className="flex items-center"> <FaMasksTheater className="mr-1" />Change theme</li>
-                        <li className="text-gray-400 flex items-center"> <HiBookOpen className="mr-1" />1st Year(2021/22)</li>
-                        <li className="text-green-800 font-semibold flex items-center"><HiBookOpen className="mr-1" />2nd Year(2022/23)</li>
+                        <li className="text-gray-400 flex items-center"> <FaReadme className="mr-1" />1st Year(2021/22)</li>
+                        <li className="text-green-800 font-semibold flex items-center"><FaReadme className="mr-1" />2nd Year(2022/23)</li>
                     </ol>
                 </div>
             </div>
