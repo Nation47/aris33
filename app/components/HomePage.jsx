@@ -30,7 +30,7 @@ const HomePage = () => {
                         <FaReadme className="mr-1" />
                         2nd semester(2022/23)
                     </h1>
-                    <Link href="/results" className="mt-5 text-blue-700 text-sm">My Courses & Results</Link>
+                    <Link href="/results" rel="prefetch" className="mt-5 text-blue-700 text-sm">My Courses & Results</Link>
                 </div>
             </div>
         </>
