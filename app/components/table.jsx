@@ -1,6 +1,7 @@
 "use client"
 
 import { Card, Typography } from "@material-tailwind/react";
+import { useEffect, useState } from 'react';
  
 const TABLE_HEAD = ["#", "Code", "Title", "Type","Credits","Grade","Status"];
  
@@ -62,7 +63,10 @@ const TABLE_ROWS = [
 ];
  
 export function DefaultTable() {
+  
   return (
+    <>
+     
     <Card className="h-full w-full overflow-scroll">
         <div className="flex flex-row gap-4 px-6 py-4 text-5cqw ">
             <p className="text-center">edits: 72.00</p>
@@ -165,5 +169,7 @@ export function DefaultTable() {
         </tbody>
       </table>
     </Card>
+      
+      </>
   );
 }
